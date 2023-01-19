@@ -1,5 +1,5 @@
 import React from "react";
-import { SpringConfig } from "react-spring";
+import { SpringConfig } from "@react-spring/web";
 
 type configsFn = ({numberValue, index}: {numberValue: number, index: number}) => SpringConfig;
 
